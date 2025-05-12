@@ -26,16 +26,16 @@ public class JavaUaxApplication {
 			miniretos.ej2();
 				break;
 			case 3:
-
+			miniretos.ej3();
 				break;
 			case 4:
-
+			miniretos.ej4();
 				break;
 			case 5:
-				miniretos.ej5();
+			miniretos.ej5();
 				break;
 			case 6:
-
+			miniretos.ej6();
 				break;
 
 			default:
