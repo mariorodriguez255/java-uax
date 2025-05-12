@@ -1,11 +1,46 @@
 package uax.practicas.java_uax;
-import uax.practicas.java_uax.ejs.ej5;
+
+import java.util.Scanner;
+
+import uax.practicas.java_uax.ejs.miniretos;
 
 public class JavaUaxApplication {
 	public static void main(String[] args) {
-		ej5 ej = new ej5();
-		int[] arr = new int[] {1,2,3,4,5,6,7,8,9};
-		ej.e(arr);
+		miniretos miniretos = new miniretos();
+		Scanner sc = new Scanner(System.in);
+		System.out.println(
+				"--- Menu de Mini-Retos ---" + "\n" +
+						"--- De Mario Rodriguez ---" + "\n" +
+						"1. Primero - Ultimo 2. Marcha atras" + "\n" +
+						"3. Total Acumulado  4. Mayor - Menor" + "\n" +
+						"5. Contador pares   6. Arr con valor doble" + "\n" +
+						"-- Seleccione el reto que quieras ejecutar: ");
+		int eleccion = sc.nextInt();
+		System.out.println("--------------------");
+
+		switch (eleccion) {
+			case 1:
+			miniretos.ej1();
+				break;
+			case 2:
+			miniretos.ej2();
+				break;
+			case 3:
+
+				break;
+			case 4:
+
+				break;
+			case 5:
+				miniretos.ej5();
+				break;
+			case 6:
+
+				break;
+
+			default:
+				break;
+		}
 	}
 
 }
