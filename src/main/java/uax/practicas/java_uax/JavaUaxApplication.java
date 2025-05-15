@@ -35,7 +35,6 @@ public class JavaUaxApplication {
 			miniretos.ej5();
 				break;
 			case 6:
-			miniretos.ej6();
 				break;
 
 			default:
