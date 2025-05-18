@@ -69,4 +69,30 @@ public class miniretos {
         System.out.println("Arr x2: " + Arrays.toString(arrx2));
     }
 
+    public void ej7(){
+        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int[] arrx2 = new int[arr.length];
+        for (int i = arr.length; i > 0; i--) {
+            arrx2[i] = arr[i];
+        }
+        System.out.println("Arr Normal: " + Arrays.toString(arr));
+        System.out.println("Arr Invertido: " + Arrays.toString(arrx2));
+    }
+
+    public void ej8(){
+        int[] arr = { 1, -2, 3, -4, 5, 6, -7, 8, -9, 10 };
+        int[] arrPos = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > 0) {
+                arrPos[i] = arr[i];
+            }
+            
+
+        }
+        System.out.println("Arr Normal: " + Arrays.toString(arr));
+        System.out.println("Arr Positivos: " + Arrays.toString(arrPos));
+        
+    }
+
+
 }

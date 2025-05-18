@@ -37,7 +37,12 @@ public class JavaUaxApplication {
 			case 6:
 			miniretos.ej6();
 				break;
-
+			case 7:
+			miniretos.ej7();
+				break;
+			case 8:
+			miniretos.ej8();
+				break;
 			default:
 				break;
 		}
